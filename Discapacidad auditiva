@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liderazgo Inclusivo - Lengua de Signos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lengua de Signos y Diversidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#que-es">¿Qué es?</a></li>
+            <li><a href="#lenguas">Lenguas de Signos por el mundo</a></li>
+            <li><a href="#experiencias">Experiencias</a></li>
+            <li><a href="#iniciacion">Iniciación</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <video controls>
+                <source src="video-inicio.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+            <button onclick="scrollToSection('que-es')">Quiero conocer más</button>
+        </section>
+        <section id="que-es">
+            <h2>¿Qué es la lengua de signos?</h2>
+            <p>La lengua de signos es un medio de comunicación visual y gestual...</p>
+        </section>
+        <section id="lenguas">
+            <h2>Lenguas de Signos por el Mundo</h2>
+            <p>Existen diferentes lenguas de signos en el mundo...</p>
+            <div class="images">
+                <img src="abecedario-espanol.jpg" alt="Abecedario en español">
+                <img src="abecedario-americano.jpg" alt="Abecedario en ASL">
+            </div>
+        </section>
+        <section id="experiencias">
+            <h2>Experiencias</h2>
+            <video controls>
+                <source src="video-experiencias.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </section>
+        <section id="iniciacion">
+            <h2>Iniciación en la Lengua de Signos</h2>
+            <div class="videos">
+                <video controls>
+                    <source src="palabra1.mp4" type="video/mp4">
+                </video>
+                <video controls>
+                    <source src="palabra2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <ul>
+                <li><a href="https://ejemplo.com" target="_blank">Página 1</a></li>
+                <li><a href="https://ejemplo.com" target="_blank">Página 2</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Liderazgo Inclusivo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
